@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+modId="automute"
+version="${file.jarVersion}"
+displayName="AutoMute Mod"
+authors="Efimka"
+description='''
+Automatically mutes players for using forbidden words
+'''
