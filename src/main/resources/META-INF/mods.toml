@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="automutemod"
+version="1.0.0"
+displayName="AutoMuteMod"
+authors="efimka"
+description='''
+Автоматический мод для модерации чата в Minecraft. 
+Обнаруживает оскорбления в чате и автоматически выдает муты игрокам.
+Поддерживает два типа оскорблений: простые и семейные с разными наказаниями.
+'''
+
+[[dependencies.automutemod]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.39,37)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.automutemod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="CLIENT"
